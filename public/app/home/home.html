@@ -1,0 +1,19 @@
+<div class="todos">
+    <div class="all-todos">
+        <h2>All Todos</h2>
+        <div class="all-todo" ng-repeat="todo in allTodos" ng-class="{'active':activeTodos.indexOf(todo) !== -1, 'resolved':resolvedTodos.indexOf(todo) !== -1}">
+            <p>{{ todo.name }}</p>
+        </div>
+    </div>
+    <div class="active-todos">
+        <h2>Active Todos</h2>
+        <div id="{{ todo.idx }}" class="active-todo" ng-repeat="todo in activeTodos" ng-class="{'first':$index === 0}" track-element-changes>
+            <div>
+                <img ng-src="{{ todo.picture }}">
+            </div>
+            <div>
+                <p>{{ todo.name }}<span ng-if="$index === 0"><a ng-click="defer()">Defer</a> <a ng-click="resolved()">Resolved</a></span></p>
+            </div>
+        </div>
+    </div>
+</div>

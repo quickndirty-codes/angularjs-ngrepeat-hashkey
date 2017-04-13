@@ -1,0 +1,47 @@
+@import "../node_modules/compass-sass-mixins/lib/compass/reset"
+@import "../node_modules/compass-sass-mixins/lib/compass"
+@import "../node_modules/compass-sass-mixins/lib/animate"
+
+html, body
+    height: 100%
+    font-family: Verdana
+
+body
+    margin: 0
+
+.container
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+
+.todos
+    display: flex
+    .active-todos
+        margin: 20px
+        h2
+            margin-bottom: 5px
+            font-weight: bold
+        .active-todo
+            display: flex
+            a
+                cursor: pointer
+                color: blue
+            img
+                height: 50px
+                width: 50px
+                margin-right: 5px
+
+    .all-todos
+        margin: 20px
+        h2
+            margin-bottom: 5px
+            font-weight: bold
+        .all-todo
+            margin: 1px
+            padding: 3px
+            background-color: aliceblue
+            &.active
+                color: lightgray
+            &.resolved
+                text-decoration: line-through
