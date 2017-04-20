@@ -6,17 +6,18 @@
     "node_modules"
   ],
   "dependencies": {
-	"express": "*",
+      "express": "*",
 
-    "event-stream": "3.3.2",
-    "gulp": "3.9.1",
-    "gulp-expect-file": "0.0.7",
-    "gulp-sass": "3.0.0",
-    "gulp-plumber": "1.1.0",
-    "gulp-notify": "2.2.0",
+      "event-stream": "3.3.2",
+      "gulp": "3.9.1",
+      "gulp-cli": "1.2.2",
+      "gulp-expect-file": "0.0.7",
+      "gulp-sass": "3.0.0",
+      "gulp-plumber": "1.1.0",
+      "gulp-notify": "2.2.0",
 
-    "compass-sass-mixins": "0.12.7",
-    "yargs": "6.5.0"
+      "compass-sass-mixins": "0.12.7",
+      "yargs": "6.5.0"
 
    },
   "engine": "node >= 6.x"
