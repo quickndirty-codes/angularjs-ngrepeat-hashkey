@@ -8,4 +8,4 @@ Make sure Node & Npm are installed. Refer to: https://nodejs.org/en/download/
     gulp
     sudo node server.js
     
-Associated article https://www.quickndirty.codes/2017/04/angularjs-ngrepeat-hashkey.html
+Associated article https://www.quickndirty.codes/index.php/2017/05/07/angularjs-ngrepeat-hashkey/
